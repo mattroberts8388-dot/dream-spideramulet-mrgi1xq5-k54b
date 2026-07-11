@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "spideramulet",
+  "version": "${version}",
+  "name": "Spider Amulet",
+  "description": "Adds a craftable amulet that lets you climb walls like a spider and gives a burst of speed when sprinting off ledges.",
+  "authors": ["SpiderAmulet Dev"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spideramulet/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.spideramulet.SpiderAmuletMod"],
+    "client": ["com.spideramulet.SpiderAmuletModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
